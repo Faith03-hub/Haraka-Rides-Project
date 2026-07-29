@@ -3,10 +3,10 @@
 **Database Management System:** PostgreSQL  
 **Data Ingestion Method:** pgAdmin Import/Export Wizard Tool  
 **Data Scope:** 406 Raw Trips, 106 Raw Fleet Events  
-**Developer/Group:** Faith N. & Team
+**Developer/Group:** Faith Njenga
 
 ## Project Overview
-This project involves building a centralized, clean data ecosystem for Haraka Rides, a Nairobi ride-hailing startup. Raw, messy booking exports (\	rips_staging\) and fleet logs (\leet_staging\) were ingested into wide-open text staging schemas using the pgAdmin Import/Export Wizard to ensure raw structure containment. The data was subsequently profiled for irregularities and systematically migrated into structured production tables using absolute, alias-free SQL logic.
+This project involves building a centralized, clean data ecosystem for Haraka Rides, a Nairobi ride-hailing startup. Raw, messy booking exports (trips_staging) and fleet logs (fleet_staging) were ingested into wide-open text staging schemas using the pgAdmin Import/Export Wizard to ensure raw structure containment. The data was subsequently profiled for irregularities and systematically migrated into structured production tables using absolute, alias-free SQL logic.
 
 ## Production Schema Design
 We established a strict relational architecture separated into domain schemas:
